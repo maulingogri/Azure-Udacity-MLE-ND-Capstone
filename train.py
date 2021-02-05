@@ -22,9 +22,9 @@ def main():
     ds = TabularDatasetFactory.from_delimited_files(path=url_path)
 
     # Split data into train and score sets
-    train, score = ds.random_split(percentage=0.75, seed=121)
+    # train, score = ds.random_split(percentage=0.75, seed=121)
 
-    x, y = clean_data(train)
+    x, y = clean_data(ds)
 
     # TODO: Split data into train and test sets.
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25, random_state=121)
