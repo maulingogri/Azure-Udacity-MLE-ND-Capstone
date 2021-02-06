@@ -49,7 +49,7 @@ This being an inital run the parameter ranges are set broader. 'C' value was set
 The best model in hyperdrive modeling had an accuracy of 90.66% accuracy. The 'C' value of 19.49 and max iterations of 250 runs were the parameters of the best model. List of all models, Accuracy mapping of all runs from ML Studio and RunDetails snippet are presented below.
 <img src='snaps/HD_AllModels1.png'>
 <img src='snaps/HD_AllModels2.png'>
-<img src='snaps/HD_MetricLog.png'>
+<img src='snaps/HD_MetricsLog.png'>
 <img src='snaps/HD_RunDetails.png'>
 Find below the details of the best run:
 <img src='snaps/HD_BestRun.png'>
